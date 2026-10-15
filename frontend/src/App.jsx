@@ -7,7 +7,7 @@ import Education from "./components/Education";
 import Achievements from "./components/Achievements";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Chatbot from "./components/Chatbot";
+import ChatBot from "./components/ChatBot";
 
 export default function App() {
   return (
@@ -21,7 +21,7 @@ export default function App() {
       <Achievements />
       <Contact />
       <Footer />
-      <Chatbot />
+      <ChatBot />
     </>
   );
 }
