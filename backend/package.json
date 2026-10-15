@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-backend",
+  "version": "1.1.0",
+  "description": "Portfolio backend - contact form messages are delivered straight to Gmail",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "nodemailer": "^10.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
